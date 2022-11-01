@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 import Style from "../Style.css";
 const Navbar = () => {
   return (
@@ -23,19 +24,19 @@ const Navbar = () => {
         ></link>
       </Helmet>
       <div className="header">
-        <div className="logotype">Health</div>
+        <div className="logotype ">Health</div>
         <div className="top-bar">
           <div className="search">
             <input type="search" placeholder="검색어를 입력하세요." />
           </div>
 
-          <div className="top-bar-right">
-            <span style={{ marginLeft: "10px", marginRight: "20px" }}>
+          <div className="top-bar-right font-semibold">
+            <Link to="/" style={{ marginLeft: "10px", marginRight: "20px" }}>
               로그인
-            </span>
-            <span style={{ marginLeft: "10px", marginRight: "20px" }}>
+            </Link>
+            <Link to="/" style={{ marginLeft: "10px", marginRight: "20px" }}>
               회원가입
-            </span>
+            </Link>
           </div>
         </div>
       </div>
