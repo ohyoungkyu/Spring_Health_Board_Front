@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import MetaTag from "./Components/MetaTag";
 import Navbar from "./Components/Navbar";
 import Sidebar from "./Components/Sidebar";
 import Style from "./Style.css";
@@ -7,18 +7,7 @@ import Style from "./Style.css";
 const MainPage = () => {
   return (
     <div>
-      <Helmet>
-        <link
-          href="https://cdn.jsdelivr.net/npm/daisyui@2.37.0/dist/full.css"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <link
-          href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css"
-          rel="stylesheet"
-          type="text/css"
-        />
-      </Helmet>
+      <MetaTag />
       <Navbar />
       <div className="wrapper">
         <Sidebar />

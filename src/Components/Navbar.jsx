@@ -1,33 +1,25 @@
 import React from "react";
+
 import { Helmet } from "react-helmet";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+
 import { Link } from "react-router-dom";
 import Style from "../Style.css";
 const Navbar = () => {
   return (
     <>
-      <Helmet>
-        <link
-          rel="stylesheet"
-          href="https://www.w3schools.com/w3css/4/w3.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto"
-        ></link>
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Montserrat"
-        ></link>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        ></link>
-      </Helmet>
       <div className="header">
-        <div className="logotype ">Health</div>
+        <Link to="/" className="logotype">
+          Health
+        </Link>
         <div className="top-bar">
           <div className="search">
             <input type="search" placeholder="검색어를 입력하세요." />
+            <div className="search-icon">
+              <FontAwesomeIcon icon={faMagnifyingGlass} />
+            </div>
           </div>
 
           <div className="top-bar-right font-semibold">
