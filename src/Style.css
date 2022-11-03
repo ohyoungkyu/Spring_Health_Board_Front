@@ -181,3 +181,47 @@ input[type="search"] {
 /* chest 끝 
 -----------------------------
 */
+
+.swiper {
+  width: 150vh;
+  height: 70vh;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swipefont {
+  width: 300px;
+  height: 10%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 35%;
+  height: 86%;
+  object-fit: fill;
+}
+
+.Exercisevideo {
+  margin-left: 20px;
+  width: 60%;
+}

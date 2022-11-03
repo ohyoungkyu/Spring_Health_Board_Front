@@ -3,6 +3,7 @@ import MetaTag from "../Components/MetaTag";
 import Navbar from "../Components/Navbar";
 import Sidebar from "../Components/Sidebar";
 import Style from "../Style.css";
+import Showcase from "../Swiper/Showcase";
 
 const Chest = () => {
   return (
@@ -56,6 +57,8 @@ const Chest = () => {
               운동 종류 및 동영상 소개
             </div>
           </div>
+
+          <Showcase />
         </div>
       </div>
     </div>
