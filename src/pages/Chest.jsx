@@ -3,7 +3,7 @@ import MetaTag from "../Components/MetaTag";
 import Navbar from "../Components/Navbar";
 import Sidebar from "../Components/Sidebar";
 import Style from "../Style.css";
-import Showcase from "../Swiper/Showcase";
+import ShowcaseChest from "../Swiper/ShowcaseChest";
 
 const Chest = () => {
   return (
@@ -21,13 +21,11 @@ const Chest = () => {
             <img src="https://ifh.cc/g/lt2bbM.png" alt="" />
             <div className="produceWrite items-center">
               <h1 className="text-center font-bold">
-                1. 가슴 운동은 자세를 바르게 만듭니다
+                1. 허리, 목 디스크를 예방합니다.
               </h1>
               <p>
-                컴퓨터의 모니터를 바라보며 웅크리는 자세는 가슴의 근육 섬유를
-                짧아지게 만들고 등 근육은 늘어나게 만들어 어깨와 견갑골을 제대로
-                지지하지 못하게 만듭니다. 이를 방지하기 위해서는 최소 일주일에
-                두 번 이상은 가슴근육 발달시키는 운동을 해야 합니다.
+                허리,목을 지탱해주는 근육을 강화시켜줘서 자세를 바르게 유지할 수
+                있도록 도와줍니다!
               </p>
               <h1 className="text-center font-bold">
                 <br></br>
@@ -58,7 +56,9 @@ const Chest = () => {
             </div>
           </div>
 
-          <Showcase />
+          <div className="ShowcaseContainer">
+            <ShowcaseChest />
+          </div>
         </div>
       </div>
     </div>

@@ -177,13 +177,26 @@ input[type="search"] {
 /* chest 시작 
 -----------------------------
 */
+.ShowcaseContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.SwiperTop {
+  width: 100%;
+  height: 5vh;
+  font-size: 26px;
+}
 
 /* chest 끝 
 -----------------------------
 */
 
+/* main 운동소개 시작 
+-----------------------------
+*/
 .swiper {
-  width: 150vh;
+  width: 130vh;
   height: 70vh;
   margin-bottom: 20px;
   border-radius: 25px;
@@ -209,19 +222,19 @@ input[type="search"] {
   align-items: center;
 }
 
-.swipefont {
-  width: 300px;
-  height: 10%;
-}
-
 .swiper-slide img {
   display: block;
-  width: 35%;
-  height: 86%;
+  width: 560px;
+  height: 600px;
   object-fit: fill;
 }
 
 .Exercisevideo {
+  line-height: 720px;
   margin-left: 20px;
-  width: 60%;
+  margin-top: 40px;
 }
+
+/* main 운동소개 끝
+-----------------------------
+*/
