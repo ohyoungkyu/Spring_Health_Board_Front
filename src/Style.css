@@ -165,11 +165,11 @@ input[type="search"] {
 
 .produceWrite {
   width: 70%;
-  height: inherit;
+  height: 100%;
   margin-left: 14px;
-  font-size: 26px;
+  font-size: 24px;
   padding-left: 10px;
-  padding-top: 5px;
+  margin: 0 auto;
 }
 /* main 끝
 -----------------------------
@@ -178,7 +178,6 @@ input[type="search"] {
 -----------------------------
 */
 .ShowcaseContainer {
-  width: 80%;
   margin: auto;
 }
 
@@ -224,15 +223,14 @@ input[type="search"] {
 
 .swiper-slide img {
   display: block;
-  width: 560px;
+  width: 650px;
   height: 600px;
   object-fit: fill;
 }
 
 .Exercisevideo {
   line-height: 720px;
-  margin-left: 20px;
-  margin-top: 40px;
+  margin-left: 10px;
 }
 
 /* main 운동소개 끝

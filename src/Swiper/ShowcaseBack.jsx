@@ -19,93 +19,177 @@ const ShowcaseBack = () => {
       >
         <SwiperSlide>
           <div>
-            <div className="SwiperTop font-bold">케이블 크로스 오버</div>
-            <img src="https://post-phinf.pstatic.net/MjAxODA2MjZfMTE4/MDAxNTI5OTk5MzQ0MzI1.1n5bqBArTVeUSRh_N8TH4pBObm1ZNNtuhv8u0L-Q6gkg.kUWEVu0SR6cLnI2jpZNvg6e-_g0HjXMxD0hkGXDtzNwg.JPEG/4.jpg?type=w1200"></img>
+            <div
+              className="SwiperTop font-bold"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              랫 풀 다운
+            </div>
+            <div className="flex" style={{ height: "600px" }}>
+              <img
+                src="https://post-phinf.pstatic.net/MjAxNzA2MDlfMzgg/MDAxNDk2OTk1Mjg0NDY2.43Zwc2AgiFHAX7CxvxVSdHG6-s0aVEdYpMHi6kGUYQog._J6W0cQ64GrM44Vw2TLevF9XD4yIC0VaPwRX7en8Oagg.PNG/po9.png?type=w1200"
+                style={{ height: "auto", width: "600px" }}
+              ></img>
+
+              <ReactPlayer
+                className="Exercisevideo"
+                url="https://www.youtube.com/watch?v=2K2WCGstHOY.mp4"
+                width="900px"
+                height="595px"
+                playing
+                controls
+              />
+            </div>
           </div>
-          <ReactPlayer
-            className="Exercisevideo"
-            url="https://www.youtube.com/watch?v=pIvkNgiuzec.mp4"
-            width="900px"
-            height="595px"
-            playing
-            controls
-          />
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <div className="SwiperTop font-bold">인클라인 밴치프레스</div>
-            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA2MTVfMzUg%2FMDAxNjIzNzQ2MTcwMTUw.4DY-AjnXwLJypOVn6ZrHJpyQKSEF8uETq2A_bdIMW7cg.puebq95sw_9nl8Pd20sFeGkRStSvwN2Z4peOz4a5gTgg.JPEG.sd670%2F%25C1%25A6%25B8%25F1%25C0%25BB_%25C0%25D4%25B7%25C2%25C7%25D8%25C1%25D6%25BC%25BC%25BF%25E4.-001_%25284%2529.jpg"></img>
+            <div
+              className="SwiperTop font-bold"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              바벨 로우
+            </div>
+            <div className="flex" style={{ height: "600px" }}>
+              <img
+                src="https://post-phinf.pstatic.net/MjAxODAxMjNfMjIw/MDAxNTE2Njc2MjMzMjIy.BflD6-_uvFC25x4FztcFJDJjbp7c56ThroQ1ihsoUGMg.bU-fWpETDbIRlkMFi8YNvVUfzVvNlrVl3i0iQuN4qPIg.PNG/n4.png?type=w1200"
+                style={{ height: "auto", width: "600px" }}
+              ></img>
+
+              <ReactPlayer
+                className="Exercisevideo"
+                url="https://www.youtube.com/watch?v=-j7Xtlx2S2g.mp4"
+                width="900px"
+                height="595px"
+                playing
+                controls
+              />
+            </div>
           </div>
-          <ReactPlayer
-            className="Exercisevideo"
-            url="https://www.youtube.com/watch?v=4HvI_mFhzVQ.mp4"
-            width="900px"
-            height="595px"
-            playing
-            controls
-          />
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <div className="SwiperTop font-bold">인클라인 덤벨 프레스</div>
-            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAzMTVfMjMx%2FMDAxNjQ3MzA4MTk2OTIx.9nW3ITIjd4NbPkFNZiJTZE1aQchf9PvvMCfbN66oGGAg.4KZIBhtUtkUwsRIrJck0kaiKhewL211qoP11AYABqfsg.JPEG.inhealthergym%2F%25C1%25A6%25B8%25F1%25C0%25BB-%25C0%25D4%25B7%25C2%25C7%25D8%25C1%25D6%25BC%25BC%25BF%25E4_-001_%252811%2529.jpg"></img>
+            <div
+              className="SwiperTop font-bold"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              시티드 로우
+            </div>
+            <div className="flex" style={{ height: "600px" }}>
+              <img
+                src="https://post-phinf.pstatic.net/MjAxNzExMDdfMTUy/MDAxNTEwMDMyMjk2MDU1.3R0kgAVQ6zF6Di7MEX7bQ9_7AvM52G-mOx4uX9N1uVsg.qF7itc0x6gOi5wSghPjCMpvHg_TH-ZrpeGoJm_GYvaIg.PNG/19.png?type=w1200"
+                style={{ height: "auto", width: "600px" }}
+              ></img>
+
+              <ReactPlayer
+                className="Exercisevideo"
+                url="https://www.youtube.com/watch?v=pkKfWeQ9APQ.mp4"
+                width="900px"
+                height="595px"
+                playing
+                controls
+              />
+            </div>
           </div>
-          <ReactPlayer
-            className="Exercisevideo"
-            url="https://www.youtube.com/watch?v=hNXey1DpHlI.mp4"
-            width="900px"
-            height="595px"
-            playing
-            controls
-          />
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <div className="SwiperTop font-bold">펙 덱 플라이</div>
-            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAxMjhfMTE0%2FMDAxNTgwMTk1Mjc3MjY0.acjYUcAbmQBIxR6lz21iHphXjgYZnjzp9-flCv6z5Mog.rcBB9M9ARPALhDwIk3MtAK8Kj67oEPXSq_hBjxoWjK0g.PNG.subin0145%2FPec%252BDeck.png"></img>
+            <div
+              className="SwiperTop font-bold"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              풀 업
+            </div>
+            <div className="flex" style={{ height: "600px" }}>
+              <img
+                src="https://mblogthumb-phinf.pstatic.net/MjAxOTAyMTlfMTY3/MDAxNTUwNTczNjQ5MDIz.gKJs1zhOEzz6D-2eCTNB-Yj479LBFqR1tNXfk8MuvMYg.xR2ZJfHVBMZQCcr1cyBvlWZtngwX_cgR5EwlrdJ8HEgg.JPEG.agym5/%ED%92%80%EC%97%85%EA%B7%BC%EC%9C%A1.jpg?type=w800"
+                style={{ height: "auto", width: "600px" }}
+              ></img>
+
+              <ReactPlayer
+                className="Exercisevideo"
+                url="https://www.youtube.com/watch?v=9lsqux_WcBo.mp4"
+                width="900px"
+                height="595px"
+                playing
+                controls
+              />
+            </div>
           </div>
-          <ReactPlayer
-            className="Exercisevideo"
-            url="https://www.youtube.com/watch?v=oJRW-Y1QvJQ.mp4"
-            width="900px"
-            height="595px"
-            playing
-            controls
-          />
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <div className="SwiperTop font-bold">푸시업</div>
-            <img
-              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA4MTdfMjM5%2FMDAxNTAyOTMxOTc5Njky.HV24k9DwQoAzVx5wDcDjV0LTLya4Zf6OvdH3dm5yuREg.MV_Ruhz0uS5hXx44HpPyRysoX4LrobU2aZ8rr-IeYGkg.JPEG.dodtjs77%2Fdfkfddfs2234312.jpg"
-              style={{ objectFit: "contain" }}
-            ></img>
+            <div
+              className="SwiperTop font-bold"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              데드리프트
+            </div>
+            <div className="flex" style={{ height: "600px" }}>
+              <img
+                src="https://lh3.googleusercontent.com/NrfaMcOC-vOYvG8QaaRMN-nSxZuExvagNqFbqJFfs5DjKsc0PfiRHcBazNngfva6uGjyfRnhB1V81WLGBnxbIMFI_UjqMzTd7LArS-TuNP2s-IxBohTReEv7xgeaVA_9nJqTq4A8nA=w700-h410-no"
+                style={{ height: "auto", width: "600px" }}
+              ></img>
+
+              <ReactPlayer
+                className="Exercisevideo"
+                url="https://www.youtube.com/watch?v=EBjYQeeBI-0.mp4"
+                width="900px"
+                height="595px"
+                playing
+                controls
+              />
+            </div>
           </div>
-          <ReactPlayer
-            className="Exercisevideo"
-            url="https://www.youtube.com/watch?v=aoH7qNedO8k.mp4"
-            width="900px"
-            height="595px"
-            playing
-            controls
-          />
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <div className="SwiperTop font-bold">체스트 프레스</div>
-            <img
-              src="https://mblogthumb-phinf.pstatic.net/MjAyMDAyMjRfMTI2/MDAxNTgyNTEwODM5NzE3.csmE9rAuHormTQBAVReaGX__YK-fwx0j0rlZZs2Iizog.b7JBEgPLHzqeFkRWALUObjCrgyNOjnr6PO4tlF8wkxsg.PNG.yunwangs/3.png?type=w800"
-              style={{ objectFit: "contain" }}
-            ></img>
+            <div
+              className="SwiperTop font-bold"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              원 암 덤벨 로우
+            </div>
+            <div className="flex" style={{ height: "600px" }}>
+              <img
+                src="https://mblogthumb-phinf.pstatic.net/MjAxNzEyMzBfMyAg/MDAxNTE0NjAyOTczNjE3.ZYyAuGEpDgl5vhs2AcCBctiisSnf4_cGtVUqEV43uM8g.Aa3cO95P-b_Lx5OFL0H2NsJ3sw-Tf4y2UFplQqYx7bQg.JPEG.houk0907/One%2BArm%2BDumbbell%2BRow.jpg?type=w2"
+                style={{ height: "auto", width: "600px" }}
+              ></img>
+
+              <ReactPlayer
+                className="Exercisevideo"
+                url="https://www.youtube.com/watch?v=2i1v1UvsP_w.mp4"
+                width="900px"
+                height="595px"
+                playing
+                controls
+              />
+            </div>
           </div>
-          <ReactPlayer
-            className="Exercisevideo"
-            url="https://www.youtube.com/watch?v=YOF_v_nT1Kg.mp4"
-            width="900px"
-            height="595px"
-            playing
-            controls
-          />
         </SwiperSlide>
       </Swiper>
     </div>
