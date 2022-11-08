@@ -40,7 +40,6 @@ const ShowcaseShoulder = () => {
                 url="https://www.youtube.com/watch?v=JyAhfMb3FIw.mp4"
                 width="900px"
                 height="595px"
-                playing
                 controls
               />
             </div>
@@ -69,7 +68,6 @@ const ShowcaseShoulder = () => {
                 url="https://www.youtube.com/watch?v=brwXNeJ-73E.mp4"
                 width="900px"
                 height="595px"
-                playing
                 controls
               />
             </div>
@@ -98,7 +96,6 @@ const ShowcaseShoulder = () => {
                 url="https://www.youtube.com/watch?v=7IngtcwTde4.mp4"
                 width="900px"
                 height="595px"
-                playing
                 controls
               />
             </div>
@@ -127,7 +124,6 @@ const ShowcaseShoulder = () => {
                 url="https://www.youtube.com/watch?v=Ia9DYFMkMmU.mp4"
                 width="900px"
                 height="595px"
-                playing
                 controls
               />
             </div>
@@ -156,7 +152,6 @@ const ShowcaseShoulder = () => {
                 url="https://www.youtube.com/watch?v=iNgwwI3WBTo.mp4"
                 width="900px"
                 height="595px"
-                playing
                 controls
               />
             </div>
@@ -185,7 +180,6 @@ const ShowcaseShoulder = () => {
                 url="https://www.youtube.com/watch?v=sRWFEY1M_Jo.mp4"
                 width="900px"
                 height="595px"
-                playing
                 controls
               />
             </div>
